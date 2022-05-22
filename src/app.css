@@ -1,0 +1,27 @@
+:root {
+	font-family: Arial, Helvetica, sans-serif;
+	--primary-color: rgb(191, 249, 224);
+	--secondary-color: #d0dde9;
+	--tertiary-color: #edf0f8;
+}
+
+body {
+	background-color: var(--primary-color);
+	background: linear-gradient(
+		180deg,
+		var(--primary-color),
+		var(--secondary-color),
+		var(--tertiary-color)
+	);
+	margin: 0;
+	min-height: 100vh;
+}
+h1 {
+	text-align: center;
+	font-size: 2rem;
+}
+@media (max-width: 768px) {
+	hi {
+		font-size: 2.5rem;
+	}
+}
