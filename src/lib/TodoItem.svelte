@@ -1,10 +1,14 @@
+<script lang="ts">
+	export let todo: Todo;
+</script>
+
 <div class="todo done">
 	<form action="" method="">
 		<input type="hidden" name="done" value="" />
 		<button aria-label="done or notdone" class="toggle" />
 	</form>
 	<form action="" method="" class="text">
-		<input type="text" name="" />
+		<input type="text" name="" value={todo.text} />
 		<button aria-label="save button" class="save" />
 	</form>
 	<form action="" method="" class="delete">
