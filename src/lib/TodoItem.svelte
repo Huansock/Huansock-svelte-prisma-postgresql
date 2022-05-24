@@ -11,7 +11,7 @@
 		<input type="text" name="" value={todo.text} />
 		<button aria-label="save button" class="save" />
 	</form>
-	<form action="" method="" class="delete">
+	<form action="/todos/{todo.uid}.json?_method=delete " method="post" class="delete">
 		<button aria-label="delete" />
 	</form>
 </div>
